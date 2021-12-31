@@ -1,6 +1,6 @@
-import { User } from 'src/auth/entities/user.entity';
 import { EntityRepository, Repository } from 'typeorm';
 
+import { User } from '../../auth/entities/user.entity';
 import { CreateTaskDto } from '../dtos/create-task.dto';
 import { GetTasksFilterDto } from '../dtos/get-tasks-filter.dto';
 import { Task } from '../entities/task.entity';
